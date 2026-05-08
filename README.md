@@ -47,10 +47,3 @@ Visit the live application: [https://feisystems.vercel.app/](https://feisystems.
 ### Prerequisites
 - Node.js (v14 or higher)
 - npm or yarn package manager
-
-### Steps
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/feis.git
-   cd feis
