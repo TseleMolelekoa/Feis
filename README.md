@@ -1,71 +1,56 @@
-# Getting Started with Create React App
+# 🔥 Fire Equipment Inspection System (FEIS)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Version](https://img.shields.io/badge/version-0.1.0-blue)
+![React](https://img.shields.io/badge/React-18.x-61dafb)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.x-38b2ac)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-## Available Scripts
+A comprehensive mobile-first web application for managing fire equipment inspections, designed specifically for industrial sites like Khumani Mine. The system enables inspectors to perform digital inspections, scan QR codes, capture GPS locations, and generate compliance reports.
 
-In the project directory, you can run:
+## 🌐 Live Demo
 
-### `npm start`
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://feisystems.vercel.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Visit the live application: [https://feisystems.vercel.app/](https://feisystems.vercel.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📱 Key Features
 
-### `npm test`
+- **🔍 QR Code Scanning** - Scan equipment QR codes for instant identification
+- **📸 Camera Integration** - Capture equipment photos with front/back camera support
+- **📍 GPS Location Tracking** - Record precise equipment locations with accuracy metrics
+- **📋 Digital Inspection Forms** - Complete checklist-based inspections with pass/fail tracking
+- **📊 Reporting & Analytics** - Generate PDF, CSV, and JSON reports with filtering
+- **📱 Mobile-First Design** - Optimized for field use on tablets and smartphones
+- **🔐 Role-Based Access** - Admin, Supervisor, and Inspector roles
+- **💾 Auto-Save Drafts** - Automatically save inspection progress
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Technologies Used
 
-### `npm run build`
+- **Frontend Framework**: React 18
+- **Styling**: Tailwind CSS
+- **QR Scanning**: jsQR library
+- **Maps Integration**: OpenStreetMap, Google Maps, Apple Maps
+- **PDF Generation**: html2pdf.js
+- **Icons**: Emoji-based for lightweight performance
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📋 Equipment Types Supported
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Fire Extinguishers
+- Fire Hydrants
+- Fire Hose Reels
+- Hydrant Boxes
+- Fire Deluge Systems
+- First Aid Boxes
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Installation & Setup
 
-### `npm run eject`
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn package manager
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Steps
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# Feis" 
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/feis.git
+   cd feis
